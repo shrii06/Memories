@@ -21,7 +21,7 @@ app.use('/posts', postRoutes);
 
 
 // used to connect to the MongoDB server
-const CONNECTION_URL = 'mongodb+srv://shrinath:Shri2001@cluster0.mreqh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://********:********@cluster0.mreqh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 // the PORT which is going to be used, later HEROKU will populate env variables with its own data
 const PORT = process.env.PORT || 5000;
